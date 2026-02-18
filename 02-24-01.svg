@@ -1,0 +1,95 @@
+<svg width="600" height="600" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4E6F5"/>
+      <stop offset="70%" stop-color="#E6EFF6"/>
+      <stop offset="100%" stop-color="#C7D9E8"/>
+    </linearGradient>
+
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C7D9E8"/>
+      <stop offset="100%" stop-color="#6F95C2"/>
+    </linearGradient>
+
+    <linearGradient id="sunBeamGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fd6b3f" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FF7A50" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5A35"/>
+      <stop offset="100%" stop-color="#FF9060"/>
+    </linearGradient>
+
+    <rect id="wave" width="6" height="1.5" rx="1"/>
+    <path id="mountainPath" d="M0 60 V45 Q30 35 50 48 T100 35 V60 Z" />
+    
+    <g id="buildings" fill="#415F7E">
+      <path d="M15 40 L30 55 M30 40 L15 55 M22.5 35 V55" stroke="#415F7E" stroke-width="1.2"/>
+      <rect x="10" y="55" width="30" height="5"/>
+      <rect x="40" y="52" width="25" height="8"/>
+      <rect x="48" y="48" width="8" height="4"/>
+      <rect x="58" y="50" width="4" height="2"/>
+      <rect x="85" y="35" width="1.5" height="25"/>
+      <rect x="75" y="45" width="2" height="15"/>
+      <rect x="70" y="55" width="30" height="5"/>
+    </g>
+  </defs>
+
+  <rect width="100" height="60" fill="url(#skyGrad)"/>
+  <rect x="0" y="60" width="100" height="45" fill="url(#waterGrad)"/>
+
+  <use href="#mountainPath" fill="#A9C1D6" opacity="0.5"/>
+  <g transform="translate(0, 120) scale(1, -1)">
+    <use href="#mountainPath" fill="#A9C1D6" opacity="0.18"/>
+  </g>
+
+  <circle cx="78" cy="25" r="5" fill="url(#sunGrad)"/>
+
+  <use href="#buildings"/>
+  <g transform="translate(0, 120) scale(1, -1)">
+    <use href="#buildings" opacity="0.25"/>
+  </g>
+
+  <polygon points="72,60 80,60 88,110 66,110" fill="url(#sunBeamGrad)"/>
+
+  <g transform="translate(45, 75)">
+    <g fill="#102235">
+        <path d="M-1 -1 L16 -1 L14 5 Q13 6 12 6 L3 6 Q2 6 1 5 Z" />
+        <circle cx="5" cy="-3" r="2" />
+        <circle cx="10" cy="-1.5" r="1.5" />
+    </g>
+    <g transform="translate(0, 12) scale(1, -1)" opacity="0.2">
+        <path d="M-1 -1 L16 -1 L14 5 Q13 6 12 6 L3 6 Q2 6 1 5 Z" />
+    </g>
+  </g>
+
+  <g transform="translate(25, 70) scale(0.6)">
+    <g fill="#102235">
+        <path d="M-1 -1 L13 -1 L11 4 Q10.5 5 9.5 5 L2.5 5 Q1.5 5 1 4 Z" />
+        <circle cx="6" cy="-2" r="2" />
+    </g>
+  </g>
+
+<g opacity="0.7">
+    <use href="#wave" x="8" y="80" fill="#5F88B8"/>
+    <use href="#wave" x="15" y="92" fill="#5F88B8" opacity="0.5"/>
+    <use href="#wave" x="25" y="88" fill="#5F88B8"/>
+    <use href="#wave" x="35" y="78" fill="#5F88B8" opacity="0.6"/>
+    <use href="#wave" x="12" y="72" fill="#5F88B8" opacity="0.4"/>
+    
+    <use href="#wave" x="80" y="80" fill="#5F88B8"/>
+    <use href="#wave" x="90" y="85" fill="#5F88B8" opacity="0.5"/>
+    <use href="#wave" x="85" y="70" fill="#5F88B8" opacity="0.4"/>
+
+    <use href="#wave" x="70" y="68" fill="#FF7A50"/>
+    <use href="#wave" x="78" y="75" fill="#F8B89D"/>
+    <use href="#wave" x="68" y="85" fill="#FF7A50"/>
+    <use href="#wave" x="74" y="82" fill="#F8B89D" opacity="0.8"/>
+    <use href="#wave" x="75" y="95" fill="#FF7A50"/>
+    <use href="#wave" x="82" y="90" fill="#FF7A50" opacity="0.7"/>
+    <use href="#wave" x="65" y="100" fill="#FF7A50" opacity="0.6"/>
+  </g>
+
+  <text x="50" y="115" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="9" fill="#415F7E" text-anchor="middle" letter-spacing="3">MONET</text>
+</svg>
