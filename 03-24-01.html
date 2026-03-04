@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/libs/CS559/style559.css" />
+    <link rel="stylesheet" href="./libs/CS559/style559.css" />
     <style>
         body {
             background: #ffffff;
@@ -35,16 +35,11 @@
 
         label { cursor: pointer; font-size: 14px; }
 
-        button {
-            padding: 6px 12px;
-            background: #1976d2;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
+        .hint {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
         }
-
-        button:hover { background: #1565c0; }
     </style>
 </head>
 <body>
@@ -60,17 +55,10 @@
     <label><input type="checkbox" id="check-smoke" checked> Engine Smoke</label>
 </div>
 
-<div style="margin-top:15px;">
-    <button onclick="screenshot('canvas1')">Screenshot</button>
+<div class="hint">
+    Shift+Click to add a node, Ctrl+Click to delete a node.
 </div>
-
-<script type="module">
-    import { screenshot } from "../libs/CS559/saveCanvas.js";
-    window.screenshot = screenshot;
-</script>
 
 <script type="module" src="./03-24-01.js" defer></script>
 </body>
-
 </html>
-
