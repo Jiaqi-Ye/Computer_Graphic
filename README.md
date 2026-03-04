@@ -8,4 +8,8 @@ https://Jiaqi-Ye.github.io/Computer_Graphic/01-24-01.html
 https://Jiaqi-Ye.github.io/Computer_Graphic/02-13-01.html
 https://Jiaqi-Ye.github.io/Computer_Graphic/02-24-01.html
 https://Jiaqi-Ye.github.io/Computer_Graphic/02-25-01.html
+
+https://Jiaqi-Ye.github.io/Computer_Graphic/03-17-02.html
+https://Jiaqi-Ye.github.io/Computer_Graphic/03-24-01.html
+https://Jiaqi-Ye.github.io/Computer_Graphic/03-26-01.html
 )
