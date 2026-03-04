@@ -1,6 +1,6 @@
 // @ts-check
-import { draggablePoints } from "./libs/CS559/dragPoints.js";
-import { RunCanvas } from "./libs/CS559/runCanvas.js";
+import { draggablePoints } from "/libs/CS559/dragPoints.js";
+import { RunCanvas } from "/libs/CS559/runCanvas.js";
 
 /** @type {Array<[number,number]>} */
 let thePoints = [[100,250],[150,500],[350,550],[500,400],[500,150],[300,50]];
@@ -238,3 +238,4 @@ run.setupSlider(0,thePoints.length,0.01);
 run.setValue(0);
 
 draggablePoints(canvas,thePoints,()=>{},10);
+
