@@ -17,6 +17,6 @@ Computer Graphic small demos
 - [03-26-01](https://Jiaqi-Ye.github.io/Computer_Graphic/03-26-01.html)
 
 ## Workbook 4
- - [04-18-01](https://Jiaqi-Ye.github.io/Computer_Graphic/03-18-01.html)
-- [04-19-01](https://Jiaqi-Ye.github.io/Computer_Graphic/03-19-01.html)
+ - [04-18-01](https://Jiaqi-Ye.github.io/Computer_Graphic/04-18-01.html)
+- [04-19-01](https://Jiaqi-Ye.github.io/Computer_Graphic/04-19-01.html)
 - [04-27-01](https://Jiaqi-Ye.github.io/Computer_Graphic/04-27-01.html)
