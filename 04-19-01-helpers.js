@@ -3,7 +3,7 @@
 // code to understand where things are
 // @ts-check
 /* jshint -W069, esversion:6 */
-import * as T from "three";
+import * as T from "https://unpkg.com/three@0.180.0/build/three.module.js";
 
 
 // Simple wrapper function for code to set up the basic scene
@@ -55,5 +55,6 @@ export function setupBasicScene() {
     // make sure to return it
     return scene;
 }
+
 
 

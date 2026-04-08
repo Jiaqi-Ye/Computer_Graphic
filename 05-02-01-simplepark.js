@@ -1,7 +1,7 @@
 // @ts-check
 
-import * as T from "three";
-import { GrObject } from "CS559-Framework/GrObject.js";
+import * as T from "https://unpkg.com/three@0.180.0/build/three.module.js";
+import { GrObject } from "./libs/CS559-Framework/GrObject.js";
 
 let simplecount = 0;
 
@@ -56,4 +56,5 @@ export class SimpleBouncer extends GrObject {
     }
   }
 }
+
 

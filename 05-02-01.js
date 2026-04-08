@@ -1,6 +1,6 @@
 // @ts-check
 
-import { GrWorld } from "CS559-Framework/GrWorld.js";
+import { GrWorld } from "./libs/CS559-Framework/GrWorld.js";
 import {
   GrSimpleSwing,
   GrColoredRoundabout,
@@ -77,3 +77,4 @@ world.add(decor3);
 
 // start animation
 world.go();
+

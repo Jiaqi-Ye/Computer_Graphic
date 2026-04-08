@@ -1,5 +1,5 @@
 // @ts-check
-import * as T from "three";
+import * as T from "https://unpkg.com/three@0.180.0/build/three.module.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { setupBasicScene } from "./04-19-01-helpers.js";
 

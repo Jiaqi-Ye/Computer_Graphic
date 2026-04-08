@@ -1,7 +1,7 @@
 // @ts-check
 
-import * as T from "three";
-import { GrWorld } from "CS559-Framework/GrWorld.js";
+import * as T from "https://unpkg.com/three@0.180.0/build/three.module.js";
+import { GrWorld } from "./libs/CS559-Framework/GrWorld.js";
 import { GrLowPolyTree, ProGableRoofHouse, GrStripedStore, GrChurch } from "./05-27-01-buildings.js";
 
 const world = new GrWorld({

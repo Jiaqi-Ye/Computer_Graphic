@@ -1,8 +1,8 @@
 // @ts-check
 
-import * as T from "three";
-import { GrWorld } from "CS559-Framework/GrWorld.js";
-import { GrObject } from "CS559-Framework/GrObject.js";
+import * as T from "https://unpkg.com/three@0.180.0/build/three.module.js";
+import { GrWorld } from "./libs/CS559-Framework/GrWorld.js";
+import { GrObject } from "./libs/CS559-Framework/GrObject.js";
 
 let parentOfCanvas = document.getElementById("div1");
 let world = new GrWorld({
@@ -28,18 +28,18 @@ world.scene.add(dir);
 const textureLoader = new T.TextureLoader();
 
 // Additional maps for the advanced requirement (combined with env map).
-const baseColor = textureLoader.load("../textures/simple/check_16x16.png");
+const baseColor = textureLoader.load("textures/simple/check_16x16.png");
 baseColor.colorSpace = T.SRGBColorSpace;
 baseColor.wrapS = T.RepeatWrapping;
 baseColor.wrapT = T.RepeatWrapping;
 baseColor.repeat.set(2, 2);
 
-const normalMap = textureLoader.load("../images/normal-map2.jpg");
+const normalMap = textureLoader.load("images/normal-map2.jpg");
 normalMap.wrapS = T.RepeatWrapping;
 normalMap.wrapT = T.RepeatWrapping;
 normalMap.repeat.set(2, 2);
 
-const roughnessMap = textureLoader.load("../textures/simple/check_16x16.png");
+const roughnessMap = textureLoader.load("textures/simple/check_16x16.png");
 roughnessMap.wrapS = T.RepeatWrapping;
 roughnessMap.wrapT = T.RepeatWrapping;
 roughnessMap.repeat.set(2, 2);
@@ -87,7 +87,7 @@ class EnvSphere extends GrObject {
 
 // Load environment map (evn2.jpg) and apply it to scene + object.
 textureLoader.load(
-    "../images/evn2.jpg",
+    "images/evn2.jpg",
     (envMap) => {
         envMap.mapping = T.EquirectangularReflectionMapping;
         envMap.colorSpace = T.SRGBColorSpace;
@@ -101,3 +101,4 @@ textureLoader.load(
 world.go();
 
 // 2026 Workbook
+
