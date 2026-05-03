@@ -33,3 +33,4 @@ Computer Graphic small demos
 upload file soon 
 
 ## Workbook 7
+- [07-06-01](https://Jiaqi-Ye.github.io/Computer_Graphic/07-06-01.html)
