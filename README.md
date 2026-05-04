@@ -35,4 +35,6 @@ upload file soon
 ## Workbook 7
 - [07-06-01](https://Jiaqi-Ye.github.io/Computer_Graphic/07-06-01.html)
 upload file soon 
-introduce video "https://mediaspace.wisc.edu/media/technical+achievements/1_fszklryy"
+introduce video
+"https://mediaspace.wisc.edu/media/technical+achievements/1_fszklryy"
+"https://mediaspace.wisc.edu/media/Describe+the+theme+%2B+give+a+tour/1_jd9c8e8g"
